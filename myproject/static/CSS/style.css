@@ -6,3 +6,84 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.home{
+    display: flex;
+    background-color: #89CAE4;
+    opacity: 20%;
+    border: 2px solid;
+    border-color: #C4C0C0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 1000px;
+    border-radius: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home1{
+    display: flex;
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-color: #C4C0C0;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 1000px;
+    border-radius: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+
+.title1{
+    display: flex;
+    color: #636363;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sign-in-button{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+    background-color: #000080;
+    opacity: 70%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.sign-in-button:hover{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+    background-color: #000080;
+    opacity: 41%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 24px;
+}
