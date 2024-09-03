@@ -17,6 +17,12 @@
             <p class="title1">
                 Keep track of birthdays and find gift ideas with the Gift Glance. A simple tool for managing important dates and celebrating friends and family.
         </div>
-        <a href="/login" class="sign-in-button">Sign In</a>
+
+
+        {% comment %} Add if user.is_authenticated after here so when user clicks logo in top right? this part disapears {% endcomment %}
+        <a href="/users/login" class="sign-in-button">Sign In</a>
+        <p class="no-account">Don't have an account? Click <a href="/users/sign-up">here</a></p>
+
+        {% comment %} Add something here for homepage when user is signed in, maybe an image to fill the space {% endcomment %}
     </div>
 {% endblock %}
