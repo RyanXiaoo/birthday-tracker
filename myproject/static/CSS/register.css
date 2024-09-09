@@ -1,0 +1,17 @@
+.background1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(143, 143, 204);
+}
+
+.form-control{
+    font-size: 50px;
+}
+

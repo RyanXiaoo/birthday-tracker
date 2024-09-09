@@ -13,10 +13,17 @@ class registration_form(UserCreationForm):
         widget= forms.PasswordInput(attrs={'class': 'form-control'})
     )
 
+    email = forms.EmailField(
+        label= 'Email',
+        widget= forms.EmailInput(attrs={'class': 'form-control'})
+    )
+    usable_password = None
+
     class Meta:
         model = User
-        fields = ('username', 'password1', 'password2')
+        fields = ('username', 'email', 'password1', 'password2')
         widgets = {
             'username': TextInput(attrs={'class': 'form-control'}),
         }
+        
     
